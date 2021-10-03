@@ -24,4 +24,3 @@ COPY --from=builder /server/dist dist
 EXPOSE $PORT
 
 ENTRYPOINT ["yarn", "start"]
-CMD ["start"]
